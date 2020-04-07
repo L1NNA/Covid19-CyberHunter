@@ -53,10 +53,17 @@ a {
 }
 
 .content-holder {
-  padding-top: 50px;
+  padding-top: 10px;
   padding-left: 50px;
   padding-right: 0;
 }
+
+@media (min-width: 1200px) { 
+  .content-holder{
+    padding-top: 150px;
+  }
+
+ }
 
 .content-holder h3, .content-holder h4, .content-holder h5, .content-holder h6, .content-holder h2, .content-holder h1 {
   font-family: "Roboto Slab", serif;
@@ -66,7 +73,7 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 10px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 h1.logo {

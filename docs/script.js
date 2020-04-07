@@ -122,7 +122,7 @@ function render() {
 	renderer.render( scene, camera );
 
 	// This increases or decreases speed
-	count += 0.2;
+	count += 0.1;
 
 }
 
